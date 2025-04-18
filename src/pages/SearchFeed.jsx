@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useParams } from 'react'
 import axios from 'axios';
 import { data, Link } from 'react-router-dom';
-import YouTubePlayer from '../components/YouTubePlayer ';
+import YouTubePlayer from '../components/YouTubePlayer';
 import { fetchFromAPI } from '../utils/fetchFromAPI';
 
 const searchFeed = () => {
