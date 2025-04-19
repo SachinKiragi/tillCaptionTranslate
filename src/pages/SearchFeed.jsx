@@ -5,7 +5,7 @@ import YouTubePlayerAll from '../components/YouTubePlayerAll';
 
 const SearchFeed = () => {
   const [videos, setVideos] = useState([]);
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm] = useState('Rural woman Empowerment');
   const [tempSearch, setTempSearch] = useState('');
   const [loading, setLoading] = useState(false);
   const [searched, setSearched] = useState(false); // To show "No results found" only after a search
